@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Florist</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/w3.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/additional-methods.js"></script>
+        <script src="js/home.js"></script>
+</head>
+<body>
+        <div>
+                <div class="logo img-responsive">
+                        <div class="w3-bar row logopad">
+                                <div class="w3-bar-item w3-right">Register</div>
+                                <div class="w3-bar-item w3-right">Login</div>
+                        </div>
+                        <div class="w3-bar row logopad">
+                                <div class="w3-bar-item w3-right "><i class="fa fa-shopping-cart " style="font-size:25px; margin-right: 5px;"></i>Cart </div>
+                                <div class="w3-bar-item w3-right">Order</div>
+                        </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+            <div class="w3-bar  w3-gray">
+                    <li class="w3-bar-item">Home </li>
+                    <li class="w3-bar-item">Flowers</li>
+        
+                    <li class="w3-dropdown-hover w3-bar-item w3-right">
+                            <a href="#">Sort by <i class="fa fa-caret-down"></i></a>
+                            <div class="w3-dropdown-content w3-white w3-card-4">
+                              <a href="#">Price</a>
+                              <a href="#">Type</a>
+                            </div>
+                     </li>
+
+                     <li class="w3-bar-item w3-right">Update Profile</li>
+                     <li class="w3-bar-item w3-right">Orders</li>
+            </div>
+        </div>
+        <div class="container">
+            <form action="" id="register" method="post">
+                <div class="w3-container text-center w3-text-blue"><h2>Resitration</h2></div>
+                <div class="row">
+                <div class="col-sm-6">      
+                
+                        <label class="w3-label">First Name</label>
+                        <input name="fname" class="w3-input" type="text">
+                        <br>
+                        <label class="w3-label">Last Name</label>
+                        <input name="lname" class="w3-input" type="text">
+                        <br>
+                        <label class="w3-label">Password</label>
+                        <input name="password" class="w3-input" type="password">
+                        <br>
+                        <label class="w3-label">dob</label>
+                        <input name="dob" class="w3-input" type="date" placeholder="01-01-1999  ">
+                        <br>
+                        <label class="w3-label">Role</label>
+                        <br>
+                        <select name="user" id="user" class="w3-select w3-border">
+                            <option value="customer" selected>customer</option>
+                            <option value="farmer">farmer</option>
+                        </select>
+                                            
+                    </div>
+                    <div class="col-sm-6">      
+                            
+                            
+                            <label class="w3-label">username</label>
+                            <input name="username" class="w3-input" type="text">
+                            <br>
+                            <label class="w3-label">Email</label>
+                            <input name="email" class="w3-input" type="email">
+                                <br>
+                            <label class="w3-label">Address</label>
+                            <input name="address" class="w3-input" type="text">
+                                <br>
+                            <label class="w3-label">Mobile Number</label>
+                            <input name="phone" class="w3-input" type="text">
+                            
+    
+                        </div>
+                    </div>
+            
+                    <button class="btn btn-success w3-large w3-right">Register</button>
+
+                    </form>
+
+                        
+                        
+
+        </div>
+        <br><br>
+       
+        <div class="w3-black row">
+            <div class=" col-sm-6 text-center w3-black">
+            <footer class="container page-footer">
+               <label for="email">Email</label> <p id="email">coki@gmail.com</p>
+               <label for="email">Phone</label> <p id="email">0705247047</p>
+               &copy;2019. All Rights Reserved.
+            </footer>
+          </div>
+          <div class="col-sm-6 text-center w3-black">
+                About us
+          </div>
+        </div>
+            
+ 
+</body>
+</html>
